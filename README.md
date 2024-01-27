@@ -1,12 +1,17 @@
 ![DALL·E 2024-01-27 20 46 08 - Create a sophisticated and abstract logo for 'NADOO Whisperer'  The logo should symbolize the transformation of speech to text, featuring elements lik](https://github.com/NADOOIT/NADOO-Whisperer/assets/106314951/6af6b9a7-1a86-4e3e-a7ec-cd67b97d6bff)
+
 # NADOO Whisperer
 
-NADOO Whisperer is an innovative browser extension coupled with a local desktop application designed to enhance your interaction with the ChatGPT interface. It allows you to transcribe your speech to text in real-time, utilizing the power of a local Whisper AI instance. This tool is particularly useful for those who prefer speaking over typing and wish to streamline their workflow when interacting with AI conversational models.
+NADOO Whisperer is an innovative browser extension coupled with a local desktop application designed to enhance your interaction with the ChatGPT interface. It allows you to transcribe your speech to text in real-time. This tool is particularly useful for those who prefer speaking over typing and wish to streamline their workflow when interacting with AI conversational models.
+
+## Compatibility and Requirements
+
+**Important**: NADOO Whisperer is currently compatible with **macOS** systems that have **CUDA**-enabled GPUs. This ensures optimal performance and speed for real-time voice-to-text transcription.
 
 ## Features
 
 - **Voice-to-Text Transcription**: Seamlessly convert your spoken words into written text in the ChatGPT chat window.
-- **Local Processing**: Utilize the local Whisper AI for transcription, ensuring privacy and real-time performance without relying on external APIs.
+- **Local Processing**: Ensure privacy and real-time performance with local processing.
 - **Interactive Desktop Application**: A dedicated interface for managing your interactions, including history tracking and active function management.
 - **Function Description Persistence**: Set and hold the description of the function you're currently working on, improving focus and organization.
 - **Multi-Function Management**: Ability to handle multiple function descriptions, aiding in complex or multi-faceted projects.
@@ -16,9 +21,8 @@ NADOO Whisperer is an innovative browser extension coupled with a local desktop 
 
 ### Prerequisites
 
+- macOS (with CUDA-enabled GPU)
 - Python (3.8 or newer)
-- Whisper AI installed locally
-- Modern web browser (Chrome, Firefox)
 
 ### Installation
 
@@ -26,6 +30,7 @@ NADOO Whisperer is an innovative browser extension coupled with a local desktop 
    ```sh
    git clone https://github.com/NADOOIT/NADOO-Whisperer.git
    cd NADOO-Whisperer
+
    ```
 
 2. **Set up the Local Whisper AI Environment**:
