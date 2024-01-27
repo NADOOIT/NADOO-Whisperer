@@ -1,3 +1,4 @@
+![DALL·E 2024-01-27 20 46 08 - Create a sophisticated and abstract logo for 'NADOO Whisperer'  The logo should symbolize the transformation of speech to text, featuring elements lik](https://github.com/NADOOIT/NADOO-Whisperer/assets/106314951/6af6b9a7-1a86-4e3e-a7ec-cd67b97d6bff)
 # NADOO Whisperer
 
 NADOO Whisperer is an innovative browser extension coupled with a local desktop application designed to enhance your interaction with the ChatGPT interface. It allows you to transcribe your speech to text in real-time, utilizing the power of a local Whisper AI instance. This tool is particularly useful for those who prefer speaking over typing and wish to streamline their workflow when interacting with AI conversational models.
