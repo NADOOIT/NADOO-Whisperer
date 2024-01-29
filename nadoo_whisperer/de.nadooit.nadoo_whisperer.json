@@ -1,0 +1,9 @@
+{
+  "name": "de.nadooit.nadoo_whisperer",
+  "description": "NADOO Whisperer Host",
+  "path": "/Users/christophbackhaus/Documents/GitHub/NADOO-Whisperer/nadoo_whisperer/build/nadoo_whisperer/macos/app/NADOO Whisperer.app/Contents/MacOS/NADOO Whisperer",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ldjhackmbpfhogbjjakefnibodlmleid/"
+  ]
+}

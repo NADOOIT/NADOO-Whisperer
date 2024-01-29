@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "NADOO Whisperer",
+  "version": "1.0",
+  "description": "Transcribe audio to text in the browser using Whisper AI.",
+  "permissions": ["nativeMessaging","alarms"],
+  "host_permissions": [
+    "https://chat.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "48": "icons/nadoo_whisperer48.png",
+      "128": "icons/nadoo_whisperer128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+    "web_accessible_resources": [
+    {
+      "resources": ["nadoo_whisperer.svg"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "48": "icons/nadoo_whisperer48.png",
+    "128": "icons/nadoo_whisperer128.png"
+  }
+}
