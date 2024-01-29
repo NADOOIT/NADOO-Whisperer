@@ -21,7 +21,7 @@ NADOO Whisperer is an innovative browser extension coupled with a local desktop 
 
 ### Prerequisites
 
-- macOS (with CUDA-enabled GPU)
+- macOS
 - Python (3.8 or newer)
 
 ### Installation
