@@ -6,7 +6,7 @@ NADOO Whisperer is an innovative browser extension coupled with a local desktop 
 
 ## Compatibility and Requirements
 
-**Important**: NADOO Whisperer is currently compatible with **macOS** systems that have **CUDA**-enabled GPUs. This ensures optimal performance and speed for real-time voice-to-text transcription.
+**Important**: NADOO Whisperer is currently compatible with **macOS** systems. This ensures optimal performance and speed for real-time voice-to-text transcription.
 
 ## Features
 
